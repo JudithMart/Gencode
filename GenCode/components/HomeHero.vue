@@ -37,7 +37,7 @@
 
             <p class=" text-xs font-thin text-white translate-x-20">
                 <span class="font-medium"> Eduardo Ramirez CEO de citelis </span> <br />
-                Estamos muy satisfechos por la solución tecnológica que GenCode <br />  presentó para nuestra empresa; nos entusiasma contar con un aliado  <br />así para nuestros proyectos futuros
+                Estamos muy satisfechos por la solución tecnológica  <br />  que GenCode presentó para nuestra empresa; nos entusiasma  <br /> contar con un aliado así para nuestros proyectos futuros
             </p>
 
         </div>
