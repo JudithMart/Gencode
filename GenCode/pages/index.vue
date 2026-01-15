@@ -1,4 +1,0 @@
-<template>
-    <HomeHero />
-  
-</template>
