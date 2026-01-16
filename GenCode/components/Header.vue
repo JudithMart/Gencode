@@ -1,14 +1,14 @@
 <template>
     <div class="fixed top-0 left-0 w-full z-50 bg-transparent flex items-center justify-between p-4">
-        <img src="/images/logo.png" alt="Logo" width="120" height="120" class="object-contain min-w-[80px] w-24 md:w-32" />
+        <NuxtImg src="/images/logo.png" alt="Logo" class="object-contain min-w-[80px] w-24 md:w-32" format="webp" />
 
         <!-- Desktop Nav -->
         <nav class="hidden md:flex items-center flex-1 justify-center">
-            <NuxtLink to="/" class="mr-4 text-lg font-light text-white underline-offset-4 hover:underline hover:decoration-[#0091FF]">Nosotros</NuxtLink>
-            <NuxtLink to="/" class="mr-4 text-lg font-light text-white underline-offset-4 hover:underline hover:decoration-[#0091FF]">Servicios</NuxtLink>
-            <NuxtLink to="/" class="mr-4 text-lg font-light text-white underline-offset-4 hover:underline hover:decoration-[#0091FF]">Portafolio</NuxtLink>
-            <NuxtLink to="/" class="mr-4 text-lg font-light text-white underline-offset-4 hover:underline hover:decoration-[#0091FF]">Reseñas</NuxtLink>
-            <NuxtLink to="/" class="mr-4 text-lg font-light text-white underline-offset-4 hover:underline hover:decoration-[#0091FF]">Devs</NuxtLink>
+            <NuxtLink to="/" class="mr-4 text-xs font-light  text-white underline-offset-4 hover:underline hover:decoration-[#0091FF]">Nosotros</NuxtLink>
+            <NuxtLink to="/" class="mr-4 text-xs font-light text-white underline-offset-4 hover:underline hover:decoration-[#0091FF]">Servicios</NuxtLink>
+            <NuxtLink to="/" class="mr-4 text-xs font-light text-white underline-offset-4 hover:underline hover:decoration-[#0091FF]">Portafolio</NuxtLink>
+            <NuxtLink to="/" class="mr-4 text-xs font-light text-white underline-offset-4 hover:underline hover:decoration-[#0091FF]">Reseñas</NuxtLink>
+            <NuxtLink to="/" class="mr-4 text-xs font-light text-white underline-offset-4 hover:underline hover:decoration-[#0091FF]">Devs</NuxtLink>
         </nav>
 
         <div class="hidden md:block">
@@ -31,7 +31,7 @@
                 <NuxtLink @click="isOpen = false" to="/" class="mb-6 text-2xl font-light text-white hover:underline hover:decoration-[#0091FF]">Portafolio</NuxtLink>
                 <NuxtLink @click="isOpen = false" to="/" class="mb-6 text-2xl font-light text-white hover:underline hover:decoration-[#0091FF]">Reseñas</NuxtLink>
                 <NuxtLink @click="isOpen = false" to="/" class="mb-8 text-2xl font-light text-white hover:underline hover:decoration-[#0091FF]">Devs</NuxtLink>
-                <FillButton @click="isOpen = false">Contáctanos</FillButton>
+                <FillButton  @click="isOpen = false">Contáctanos</FillButton>
             </div>
         </transition>
     </div>

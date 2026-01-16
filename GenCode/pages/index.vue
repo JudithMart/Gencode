@@ -1,4 +1,6 @@
 <template>
     <HomeHero />
-  
+    <IndustrySolutions />
+
 </template>
+
