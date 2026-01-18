@@ -121,7 +121,13 @@ function prevSlide() {
                 <span class="text-2xl">&#8594;</span>
             </button>
         </div>
-
+        <div class=" flex justify-center items-center mt-20 ">
+           <p  class="tracking-wider text-center font-bold bg-gradient-to-b from-[#F8FAFC] to-gray-500 bg-clip-text text-transparent
+                    text-4xl sm:text-6xl md:text-7xl max-w-4xl whitespace-pre-line">
+             Nuestros servicios
+             <span class="block"> principales</span>
+            </p>
+        </div>
 
     </section>
 </template>
