@@ -1,5 +1,5 @@
 <template>
-    <HomeHero />
+    <HomeHero/>
     <IndustrySolutions />
     <CoreServices />
     <EmpSystem />

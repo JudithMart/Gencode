@@ -13,7 +13,7 @@
                 a la altura de tu marca, <br /> entendiendo tus necesidades con un estilo rompedor.</p>
         </div>
 
-        <div class="mt-4 flex  flex-col sm:flex-row justify-center items-center">
+        <div class="relative mt-4 flex  flex-col sm:flex-row justify-center items-center z-10 ">
             <FillButton>Contáctanos</FillButton>
             <EmptyButton class="sm:ml-4 mt-4 sm:mt-0">Cotiza Tu Proyecto</EmptyButton>
         </div>

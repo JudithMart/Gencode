@@ -13,7 +13,16 @@ module.exports = {
       fontFamily: {
         sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
       },
+      // colors:{
+      //   comun:{
+      //     dark: '#0F172A',
+      //   },
+      //   primary: '#1E40AF',
+      //   secondary: '#F59E0B',
+      //   accent: '#10B981',
+      // }
     },
+
   },
   plugins: [],
 }

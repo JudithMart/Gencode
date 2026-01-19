@@ -18,7 +18,7 @@
 
         <div class="mt-2 sm:mt-2 flex z-10 flex-col sm:flex-row justify-center items-center">
             <FillButton>Explora Nuestros Proyectos</FillButton>
-            <EmptyButton class="sm:ml-4 mt-4 sm:mt-0">Obtén ayuda persoonalizada</EmptyButton>
+            <EmptyButton class="sm:ml-4 mt-4 sm:mt-0">Obtén ayuda personalizada</EmptyButton>
         </div>
         <div class="mt-6 sm:mt-10 lg:mt-auto flex justify-center ">
             <NuxtImg src="/images/MES.png" alt="Mockup empresariales" class="w-full object-contain
