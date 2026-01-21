@@ -1,30 +1,51 @@
 <template>
-    <div class="relative overflow-hidden lg:min-h-screen w-full pt-10 md:min-h-[85vh] ">
-        <NuxtImg src="/images/FCS.png" alt="Mokup servicios"
-            class="absolute inset-0 w-full h-full object-cover object-center -z-10" format="webp" quality="80" fill />
+    <section class="relative w-full overflow-hidden
+           min-h-fit lg:min-h-screen
+           flex flex-col pt-10">
+        <!-- Fondo DESKTOP -->
+        <NuxtImg src="/images/HomePage/Fondos/CoreServices/Desktop.webp" alt="Servicios web" class="absolute inset-0 w-full h-full object-cover -z-10
+             hidden lg:block" format="webp" quality="80" fill />
 
-        <div class="flex  items-center flex-col ">
-            <p class="pb-2 leading-relaxed text-center font-normal bg-gradient-to-b from-[#F8FAFC] to-gray-500 bg-clip-text text-transparent
-                text-4xl sm:text-6xl md:text-7xl max-w-4xl whitespace-pre-line ">
+        <!-- Fondo LAPTOP -->
+        <NuxtImg src="/images/HomePage/Fondos/CoreServices/Laptop.webp" alt="Servicios web" class="absolute inset-0 w-full h-full object-cover -z-10
+             hidden sm:block lg:hidden" format="webp" quality="80" fill />
 
+        <!-- Fondo MOBILE -->
+        <NuxtImg src="/images/HomePage/Fondos/CoreServices/Mobile.jpg"
+            class="absolute inset-0 w-full h-full object-cover block md:hidden -z-10" alt="Fondo mobile" format="webp"
+            quality="80" />
+        <!--  -->
+        <div class="relative z-10 flex flex-col items-center text-center px-4">
+            <p class="pb-2 text-center font-normal
+               bg-gradient-to-b from-text-fromGray to-text-toGray
+               bg-clip-text text-transparent
+               text-4xl sm:text-6xl md:text-7xl
+               max-w-4xl">
                 Páginas web
             </p>
-            <p class="mt-3 text-[#FFFFFF] text-center text-base  tracking-wider max-w-xl">Sitios web profesionales
-                a la altura de tu marca, <br /> entendiendo tus necesidades con un estilo rompedor.</p>
+
+            <p class="mt-3 text-white text-center text-base tracking-wider
+               max-w-xl">
+                Sitios web profesionales a la altura de tu marca,
+                <br />
+                entendiendo tus necesidades con un estilo rompedor.
+            </p>
+
+
+            <div class="mt-6 flex flex-col sm:flex-row items-center">
+                <FillButton>Contáctanos</FillButton>
+                <EmptyButton class="sm:ml-4 mt-4 sm:mt-0">
+                    Cotiza Tu Proyecto
+                </EmptyButton>
+            </div>
+        </div>
+        <div class="relative mt-10 flex justify-center md:hidden">
+            <NuxtImg src="/images/HomePage/Mockup/CoreServices.png" alt="Mockup mobile"
+                class="w-[92vw] max-w-[640px] h-auto object-contain -mt-6" quality="80" />
         </div>
 
-        <div class="relative mt-4 flex  flex-col sm:flex-row justify-center items-center z-10 ">
-            <FillButton>Contáctanos</FillButton>
-            <EmptyButton class="sm:ml-4 mt-4 sm:mt-0">Cotiza Tu Proyecto</EmptyButton>
-        </div>
-        <div class="flex  justify-center items-center  mb:h-auto lg:h-80 ">
-            <NuxtImg src="/images/MCS.png" alt="Mokup servicios" c class="w-full h-auto object-contain -mt-2
-         max-w-[90%] md:max-w-[85%] lg:max-w-7xl" format="webp" quality="80" />
-        </div>
-         <div class="absolute bottom-0 left-0 w-full h-24 
-           bg-gradient-to-t from-[#79a2b6] to-transparent">
-        </div>
-
-        
-    </div>
+        <!-- FADE INFERIOR -->
+        <div class="pointer-events-none absolute bottom-0 left-0 w-full h-24
+             bg-gradient-to-t from-[#79a2b6] to-transparent z-20" />
+    </section>
 </template>

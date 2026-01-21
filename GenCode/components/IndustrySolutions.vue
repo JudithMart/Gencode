@@ -31,37 +31,37 @@ onMounted(() => {
 
 const cards = [
     {
-        image: '/images/imageAlimenticia.png',
+        image: '/images/HomePage/Sectores/imageAlimenticia.png',
         title: 'Alimenticio',
         text: 'Una web única para compartir el mensaje de cervecería mexican',
         ruta: '/'
     },
     {
-        image: '/images/imageAgricola.png',
+        image: '/images/HomePage/Sectores/imageAgricola.png',
         title: 'Agrícola',
         text: 'Soluciones personalizadas para pizca, recolección y empaque',
         ruta: '/'
     },
     {
-        image: '/images/imageInmobiliaria.png',
+        image: '/images/HomePage/Sectores/imageInmobiliaria.png',
         title: 'Inmobiliario',
         text: 'Sistema de control de nómina y páginas web para conversión',
         ruta: '/'
     },
     {
-        image: '/images/imageIndustrial.png',
+        image: '/images/HomePage/Sectores/imageIndustrial.png',
         title: 'Industrial',
         text: 'Sistema de trazabilidad para gestión de reparaciones industriales',
         ruta: '/'
     },
     {
-        image: '/images/imageInmobiliaria.png',
+        image: '/images/HomePage/Sectores/imageInmobiliaria.png',
         title: 'Inmobiliario',
         text: 'Sistema de control de nómina y páginas web para conversión',
         ruta: '/'
     },
     {
-        image: '/images/imageIndustrial.png',
+        image: '/images/HomePage/Sectores/imageIndustrial.png',
         title: 'Industrial',
         text: 'Sistema de trazabilidad para gestión de reparaciones industriales',
         ruta: '/'
@@ -85,7 +85,7 @@ function prevSlide() {
 <template>
     <section class="bg-[#161616] w-full py-20">
         <div class="max-w-7xl mx-auto px-6 sm:px-10 lg:px-[5cm]">
-                <p ref="animatedTextRef" class="font-bold bg-gradient-to-b from-[#F8FAFC] to-gray-500 bg-clip-text text-transparent
+                <p ref="animatedTextRef" class="font-bold bg-gradient-to-b from-text-fromGray to-text-toGray bg-clip-text text-transparent
                     text-3xl sm:text-4xl md:text-6xl max-w-4xl whitespace-pre-line">
                     {{ animatedText }}
                 </p>
@@ -122,7 +122,7 @@ function prevSlide() {
             </button>
         </div>
         <div class=" flex justify-center items-center mt-20 ">
-           <p  class="tracking-wider text-center font-bold bg-gradient-to-b from-[#F8FAFC] to-gray-500 bg-clip-text text-transparent
+           <p  class="tracking-wider text-center font-bold bg-gradient-to-b from-text-fromGray to-text-toGray bg-clip-text text-transparent
                     text-4xl sm:text-6xl md:text-7xl max-w-4xl whitespace-pre-line">
              Nuestros servicios
              <span class="block"> principales</span>

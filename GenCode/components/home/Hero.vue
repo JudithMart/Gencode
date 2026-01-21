@@ -1,10 +1,11 @@
 <template>
     <div class="relative min-h-screen w-full pt-24 md:pt-36 xl:pt-44 ">
-        <NuxtImg src="/images/fondo.png" alt="Fondo hero"
+        <NuxtImg src="/images/HomePage/Fondos/Hero/Hero.png" alt="Fondo heross"
+        
             class="absolute inset-0 w-full h-full object-cover object-center -z-10" format="webp" quality="80" fill />
         <div class="flex items-center justify-center flex-col px-6">
             <div class="py-4 ">
-                <h1 class=" text-center  font-bold bg-gradient-to-b from-[#F8FAFC] to-gray-500 bg-clip-text text-transparent">
+                <h1 class=" text-center  font-bold bg-gradient-to-b from-text-fromGray to-text-toGray bg-clip-text text-transparent">
                     <span class="  block text-4xl sm:text-5xl md:text-6xl">Evoluciona</span>
                     <span class="block text-6xl sm:text-7xl md:text-8xl leading-[1.1] pb-4">Soluciones digitales</span>
                 </h1>

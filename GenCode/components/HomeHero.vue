@@ -1,6 +1,6 @@
 <template>
     <div class="relative min-h-screen w-full pt-24 md:pt-36 xl:pt-44 ">
-        <NuxtImg src="/images/fondo.png" alt="Fondo hero"
+        <NuxtImg src="images/HomePage/Fondos/Hero/Hero.png" alt="Fondo hero"
             class="absolute inset-0 w-full h-full object-cover object-center -z-10" format="webp" quality="80" fill />
         <div class="flex items-center justify-center flex-col px-6">
             <div class="py-4 ">
