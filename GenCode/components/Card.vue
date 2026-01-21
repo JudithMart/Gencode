@@ -8,7 +8,7 @@
                         <p class="mr-3 text-white text-[11px]">{{ text }}</p>
                         
                 </div>
-                <NuxtLink to={{ ruta }}
+                <NuxtLink :to="ruta"
                     class="absolute bottom-2 right-2 z-30 overflow-hidden bg-[#333337] rounded-full w-6 h-6 flex items-center justify-center
                     text-white transition-all duration-300 [transition-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)] active:-translate-y-1 
                     active:scale-x-90 active:scale-y-110 mt-2 shadow-lg shadow-black "
