@@ -83,7 +83,7 @@ function prevSlide() {
 }
 </script>
 <template>
-    <section class="bg-[#161616] w-full py-20">
+    <section class="bg-fondo-gray w-full py-20">
         <div class="max-w-7xl mx-auto px-6 sm:px-10 lg:px-[5cm]">
                 <p ref="animatedTextRef" class="font-bold bg-gradient-to-b from-text-fromGray to-text-toGray bg-clip-text text-transparent
                     text-3xl sm:text-4xl md:text-6xl max-w-4xl whitespace-pre-line">

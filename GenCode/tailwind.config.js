@@ -18,6 +18,9 @@ module.exports = {
           fromGray: '#F8FAFC',
           toGray : '#6B7280',
         },
+        fondo:{
+          gray:'#161616',
+        },
         primary: '#0091FF',
         
       }

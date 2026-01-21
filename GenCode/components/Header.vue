@@ -12,7 +12,7 @@
         </nav>
 
         <div class="hidden md:block">
-            <FillButton>Contáctanos</FillButton>
+            <FillButton class="text-sm">Contáctanos</FillButton>
         </div>
 
         <!-- Hamburger Icon -->

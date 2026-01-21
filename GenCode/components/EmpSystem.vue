@@ -29,8 +29,8 @@
         </div>
 
         <div class="mt-2 sm:mt-2 flex z-10 flex-col sm:flex-row justify-center items-center">
-            <FillButton>Explora Nuestros Proyectos</FillButton>
-            <EmptyButton class="sm:ml-4 mt-4 sm:mt-0">Obtén ayuda personalizada</EmptyButton>
+            <FillButton class="text-sm">Explora Nuestros Proyectos</FillButton>
+            <EmptyButton class="sm:ml-4 mt-4 sm:mt-0 text-sm">Obtén ayuda personalizada</EmptyButton>
         </div>
 
        <div class="relative mt-10 flex justify-center md:hidden">

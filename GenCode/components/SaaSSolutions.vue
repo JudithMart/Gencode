@@ -32,7 +32,7 @@
 
 
             <div class="mt-6 flex flex-col sm:flex-row items-center">
-                <FillButton>Conoce nuestras SAAS</FillButton>
+                <FillButton class="text-sm">Conoce nuestras SAAS</FillButton>
                
             </div>
         </div>

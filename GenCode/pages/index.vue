@@ -9,5 +9,6 @@ import { S } from 'vue-router/dist/router-CWoNjPRp.mjs';
     <CoreServices />
     <EmpSystem />
     <SaaSSolutions />
+    <WhyChooseUs />
 </template>
 

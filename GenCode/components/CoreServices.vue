@@ -33,8 +33,8 @@
 
 
             <div class="mt-6 flex flex-col sm:flex-row items-center">
-                <FillButton>Contáctanos</FillButton>
-                <EmptyButton class="sm:ml-4 mt-4 sm:mt-0">
+                <FillButton class="text-sm">Contáctanos</FillButton>
+                <EmptyButton class="sm:ml-4 mt-4 sm:mt-0 text-sm">
                     Cotiza Tu Proyecto
                 </EmptyButton>
             </div>
