@@ -116,6 +116,7 @@
 
 <script setup>
 import { ref } from 'vue'
+import FillButton from './home/FillButton.vue'
 
 const isOpen = ref(false)
 

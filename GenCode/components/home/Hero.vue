@@ -1,3 +1,9 @@
+<script setup lang="ts">
+import EmptyButton from './EmptyButton.vue';
+import FillButton from './FillButton.vue';
+
+</script>
+
 <template>
     <div class="relative min-h-screen w-full pt-24 md:pt-36 xl:pt-44 ">
         <NuxtImg src="/images/HomePage/Fondos/Hero/Hero.png" alt="Fondo heross"
