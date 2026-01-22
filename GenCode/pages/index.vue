@@ -10,5 +10,6 @@ import { S } from 'vue-router/dist/router-CWoNjPRp.mjs';
     <EmpSystem />
     <SaaSSolutions />
     <WhyChooseUs />
+    <TrustedBy/>
 </template>
 

@@ -1,7 +1,7 @@
 <template>
     <section class="relative w-full overflow-hidden
            min-h-fit lg:min-h-screen
-           flex flex-col pt-10">
+           flex flex-col pt-10 -mt-px">
         <!-- Fondo DESKTOP -->
         <NuxtImg src="/images/HomePage/Fondos/CoreServices/Desktop.webp" alt="Servicios web" class="absolute inset-0 w-full h-full object-cover -z-10
              hidden lg:block" format="webp" quality="80" fill />
