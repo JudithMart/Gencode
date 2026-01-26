@@ -59,7 +59,7 @@ const items = [
             </div>
 
             <!-- ================= MOBILE ================= -->
-            <div class="sm:hidden mt-10 px-4">
+            <div  data-aos="zoom-in" data-aos-delay="900" data-aos-duration="800" class="sm:hidden mt-10 px-4">
                 <div class="relative rounded-2xl overflow-hidden">
 
                     <transition name="fade" mode="out-in">
