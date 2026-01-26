@@ -23,7 +23,7 @@ import FillButton from './FillButton.vue';
             class="absolute inset-0 w-full h-full object-cover block md:hidden -z-10" alt="Fondo mobile" format="webp"
             quality="80" />
 
-        <div class="flex items-center flex-col px-2 z-10">
+        <div  data-aos="fade-up" data-aos-delay="900" data-aos-duration="800" class="flex items-center flex-col px-2 z-10">
             <p class="pb-2  font-light text-center  bg-gradient-to-b from-text-fromGray to-text-toGray bg-clip-text text-transparent
                 text-4xl sm:text-6xl md:text-7xl max-w-4xl whitespace-pre-line ">
 
@@ -34,7 +34,7 @@ import FillButton from './FillButton.vue';
                 tu empresa cuando un CRM no es lo que necesitas.</p>
         </div>
 
-        <div class="mt-2 sm:mt-2 flex z-10 flex-col sm:flex-row justify-center items-center">
+        <div  data-aos="fade-up" data-aos-delay="900" data-aos-duration="800"   class="mt-2 sm:mt-2 flex z-10 flex-col sm:flex-row justify-center items-center">
             <FillButton class="text-sm">Explora Nuestros Proyectos</FillButton>
             <EmptyButton class="sm:ml-4 mt-4 sm:mt-0 text-sm">Obtén ayuda personalizada</EmptyButton>
         </div>

@@ -124,13 +124,13 @@ const currentDot = computed(() => Math.floor(carouselIndex.value / cardsPerView.
         {{ animatedText }}
       </p>
 
-      <p class="text-[#C7C8CA] mt-4 sm:mt-6 text-sm sm:text-base max-w-2xl">
+      <p  data-aos="fade-up" data-aos-delay="900" data-aos-duration="800" class="text-[#C7C8CA] mt-4 sm:mt-6 text-sm sm:text-base max-w-2xl">
         Contamos con amplia experiencia en diferentes sectores como, alimenticio, agrícola, inmobiliario, moda, arte, entre otros
       </p>
     </div>
 
    
-    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8 sm:mt-12">
+    <div   class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8 sm:mt-12">
      
       <button
         class="absolute left-0 sm:left-2 top-1/2 -translate-y-1/2 z-20 bg-[#222]/90 backdrop-blur-sm text-white rounded-full 
@@ -147,7 +147,7 @@ const currentDot = computed(() => Math.floor(carouselIndex.value / cardsPerView.
       </button>
 
     
-      <div class="overflow-hidden mx-8 sm:mx-12">
+      <div  data-aos="fade-up" data-aos-delay="1000" data-aos-duration="800" class="overflow-hidden mx-8 sm:mx-12">
         <div 
           class="grid gap-4 sm:gap-6 py-4 transition-all duration-500"
           :class="{
@@ -184,7 +184,7 @@ const currentDot = computed(() => Math.floor(carouselIndex.value / cardsPerView.
       </button>
 
     <!-- Mobile -->
-      <div class="flex justify-center gap-2 mt-4 sm:hidden">
+      <div  data-aos="fade-up" data-aos-delay="900" data-aos-duration="800" class="flex justify-center gap-2 mt-4 sm:hidden">
         <button
           v-for="dot in totalDots"
           :key="dot"
@@ -199,7 +199,7 @@ const currentDot = computed(() => Math.floor(carouselIndex.value / cardsPerView.
     </div>
 
     
-    <div class="flex justify-center items-center mt-16 sm:mt-20 px-4">
+    <div  data-aos="fade-up" data-aos-delay="1000" data-aos-duration="800" class="flex justify-center items-center mt-16 sm:mt-20 px-4">
       <p class="tracking-wider text-center font-bold bg-gradient-to-b from-text-fromGray to-text-toGray bg-clip-text text-transparent
         text-3xl sm:text-5xl md:text-6xl lg:text-7xl max-w-4xl">
         Nuestros servicios

@@ -24,7 +24,7 @@ import FillButton from './FillButton.vue';
             quality="80" />
         <!--  -->
         <div class="relative z-10 flex flex-col items-center text-center px-4">
-            <p class="pb-2 text-center font-normal
+            <p data-aos="zoom-in" data-aos-delay="0" data-aos-duration="800" class="pb-2 text-center font-normal
                bg-gradient-to-b from-text-fromGray to-text-toGray
                bg-clip-text text-transparent
                text-4xl sm:text-6xl md:text-7xl
@@ -32,15 +32,16 @@ import FillButton from './FillButton.vue';
                 SAAS
             </p>
 
-            <p class="mt-3 text-white text-center text-base tracking-wider
+            <p data-aos="zoom-out-down" data-aos-delay="900" data-aos-duration="800" class="mt-3 text-white text-center text-base tracking-wider
                max-w-xl">
-               Nuestras soluciones propias para abogados, tarjetas <br /> de fidelidad y nómina.
+                Nuestras soluciones propias para abogados, tarjetas <br /> de fidelidad y nómina.
             </p>
 
 
-            <div class="mt-6 flex flex-col sm:flex-row items-center">
+            <div data-aos="fade-up" data-aos-delay="900" data-aos-duration="800"
+                class="mt-6 flex flex-col sm:flex-row items-center">
                 <FillButton class="text-sm">Conoce nuestras SAAS</FillButton>
-               
+
             </div>
         </div>
         <div class="relative mt-10 flex justify-center md:hidden">

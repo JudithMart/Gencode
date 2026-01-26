@@ -51,7 +51,7 @@ const items = [
     <section class="bg-fondo-gray w-full py-16">
         <div class="mx-auto w-full max-w-8xl  ">
             <div class="flex flex-col items-center sm:items-start ml-6 md:ml-20  flex-1 2xl:items-center ">
-                <p
+                <p data-aos="zoom-in" data-aos-delay="0" data-aos-duration="800"
                     class="text-center sm:text-left font-normal bg-gradient-to-b from-text-fromGray to-text-toGray bg-clip-text text-transparent 
                            text-4xl sm:text-4xl md:text-3xl lg:text-7xl 2xl:text-7xl  max-w-6xl 2xl:whitespace-nowrap ">
                     ¿Por qué trabajar <span class='hidden lg:inline 2xl:hidden'><br /></span>con nosotros?
@@ -85,7 +85,7 @@ const items = [
                             <EmptyButton v-for="(item, index) in items" :key="item.label" @click="activeIndex = index"
                                 class=" text-sm items-center rounded-lg text-center font-light transition-all duration-300 border" :class="activeIndex === index
                                     ? 'bg-primary border-primary text-white'
-                                    : 'bg-white/10 border-white/30'
+                                    : 'bg-white/50 border-white/30'
                                     ">
                                 {{ item.label }}
                             </EmptyButton>
@@ -107,8 +107,8 @@ const items = [
                 <!-- ================= DESKTOP ================= -->
 
 
-                <div class="sm:flex flex-col sm:flex-row w-full justify-center  mt-8 hidden ">
-                    <div class="ml-20 flex justify-center items-center">
+                <div data-aos="zoom-in" data-aos-delay="900" data-aos-duration="800" class="sm:flex flex-col sm:flex-row w-full justify-center  mt-8 hidden ">
+                    <div  class="ml-20 flex justify-center items-center">
                         <transition name="fade-slide" mode="out-in">
                             <NuxtImg :key="activeIndex" :src="items[activeIndex].image" alt="Ilustración" width="600"
                                 height="700" class="mt-10 rounded-lg bg-cover  sm:block
@@ -118,7 +118,7 @@ const items = [
                         </transition>
                     </div>
 
-                    <div class="flex flex-col mt-5">
+                    <div  class="flex flex-col mt-5">
                         <div class="flex flex-col sm:flex-row justify-center items-center
                           sm:items-start md:items-start lg:items-start
                           sm:ml-6 md:ml-10 lg:ml-14 gap-2 sm:mt-10">
