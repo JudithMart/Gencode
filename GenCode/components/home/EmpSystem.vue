@@ -24,19 +24,23 @@ import FillButton from './FillButton.vue';
             quality="80" />
 
         <div  data-aos="fade-up" data-aos-delay="900" data-aos-duration="800" class="flex items-center flex-col px-2 z-10">
-            <p class="pb-2  font-light text-center  bg-gradient-to-b from-text-fromGray to-text-toGray bg-clip-text text-transparent
-                text-4xl sm:text-6xl md:text-7xl max-w-4xl whitespace-pre-line ">
+            <p class="pb-2  font-normal text-center  bg-gradient-to-b from-text-fromGray to-text-toGray bg-clip-text text-transparent
+                 text-5xl sm:text-5xl md:text-7xl lg:text-7xl 2xl:text-7xl max-w-5xl leading-tight whitespace-pre-line ">
 
                 Sistemas empresariales
             </p>
-            <p class="mt-3 px-5 text-[#FFFFFF] text-center text-base  tracking-wider max-w-xl">Soluciones personalizadas
+            <p class="mt-3 px-5 text-[#FFFFFF] text-center  text-xs
+                   sm:text-sm 
+                   md:text-xl max-w-2xl tracking-wider  ">Soluciones personalizadas
                 para
                 tu empresa cuando un CRM no es lo que necesitas.</p>
         </div>
 
-        <div  data-aos="fade-up" data-aos-delay="900" data-aos-duration="800"   class="mt-2 sm:mt-2 flex z-10 flex-col sm:flex-row justify-center items-center">
-            <FillButton class="text-sm">Explora Nuestros Proyectos</FillButton>
-            <EmptyButton class="sm:ml-4 mt-4 sm:mt-0 text-sm">Obtén ayuda personalizada</EmptyButton>
+        <div  data-aos="fade-up" data-aos-delay="900" data-aos-duration="800"   
+        class="mt-8 md:mt-4 lg:mt-4 sm:mt-2 flex z-10 flex-col sm:flex-row justify-center items-center">
+            <FillButton  class="" >Explora Nuestros Proyectos</FillButton>
+            <EmptyButton class=" sm:ml-4 mt-4 sm:mt-0 ">Obtén ayuda personalizada</EmptyButton>
+               
         </div>
 
        <div class="relative mt-10 flex justify-center md:hidden">

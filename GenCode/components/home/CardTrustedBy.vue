@@ -6,7 +6,7 @@
         transition-all duration-500 ease-out 
         h-96 sm:h-[28rem] w-80 " :class="isExpanded ? 'shadow-[0_0_30px_rgba(0,145,255,0.15)]' : 'shadow-lg shadow-black/30'">
 
-            <div class="absolute inset-0 w-full h-full transition-all duration-500"
+            <div class="absolute inset-0 w-full h-full transition-all duration-1000"
                 :class="isExpanded ? 'opacity-20 scale-110' : 'opacity-100 scale-100'">
                 <NuxtImg :src="image" :alt="title"
                     class="w-full h-full object-cover filter brightness-90" format="webp" />
@@ -28,17 +28,17 @@
             </div>
 
 
-            <div class="absolute inset-0 rounded-xl border-2 border-primary/0 transition-all duration-500 pointer-events-none"
+            <div class="absolute inset-0 rounded-xl border-2 border-primary/0 transition-all duration-1000 pointer-events-none"
                 :class="isExpanded ? 'border-primary/40' : ''"></div>
 
 
-            <div class="absolute -bottom-2 left-1/2 -translate-x-1/2 w-1/2 h-4 bg-primborder-primary/40 blur-xl transition-all duration-500"
+            <div class="absolute -bottom-2 left-1/2 -translate-x-1/2 w-1/2 h-4 bg-primborder-primary/40 blur-xl transition-all duration-1000"
                 :class="isExpanded ? 'opacity-100' : 'opacity-0'"></div>
         </div>
 
 
-        <div class="absolute top-3 right-3 w-6 h-6 rounded-full bg-white/10 flex items-center justify-center 
-        transition-all duration-300 sm:opacity-0" :class="isExpanded ? 'rotate-45' : ''">
+        <div class="absolute top-3 right-3 w-6 h-6 rounded-full bg-white/30 flex items-center justify-center 
+        transition-all duration-300 sm:opacity-50" :class="isExpanded ? 'rotate-45' : ''">
             <span class="text-white/60 text-sm">+</span>
         </div>
     </div>

@@ -5,7 +5,7 @@
       inline-flex items-center justify-center
       bg-primary text-white
       px-6 py-2
-      min-w-[180px]
+      min-w-[150px]
       h-[42px]
       rounded-lg
       text-sm

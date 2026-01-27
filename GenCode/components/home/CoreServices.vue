@@ -28,15 +28,16 @@ import FillButton from './FillButton.vue';
                 class="pb-2 text-center font-normal
                        bg-gradient-to-b from-text-fromGray to-text-toGray
                        bg-clip-text text-transparent
-                       text-4xl sm:text-6xl md:text-7xl
-                       max-w-4xl">
+                       text-5xl sm:text-5xl md:text-7xl lg:text-7xl 2xl:text-7xl max-w-5xl leading-tight">
                            Páginas web
             </p>
 
             <p  data-aos="zoom-out-down" 
                 data-aos-delay="900" 
                 data-aos-duration="800"
-                class="mt-3 text-white text-center text-base tracking-wider max-w-xl">
+                class="mt-3 text-white text-xs
+                   sm:text-sm 
+                   md:text-xl max-w-2xl tracking-wider ">
                 Sitios web profesionales a la altura de tu marca,
                 <br />
                 entendiendo tus necesidades con un estilo rompedor.
@@ -46,9 +47,9 @@ import FillButton from './FillButton.vue';
             <div  data-aos="zoom-out-down" 
                 data-aos-delay="900" 
                 data-aos-duration="800"
-                class="mt-6 flex flex-col sm:flex-row items-center">
-                <FillButton class="text-sm">Contáctanos</FillButton>
-                <EmptyButton class="sm:ml-4 mt-4 sm:mt-0 text-sm">
+                class="mt-6 flex flex-col sm:flex-row items-center ">
+                <FillButton >Contáctanos</FillButton>
+                <EmptyButton class="sm:ml-4 mt-4 sm:mt-0 text-xs md:text-sm">
                     Cotiza Tu Proyecto
                 </EmptyButton>
             </div>

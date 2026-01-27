@@ -65,8 +65,10 @@ import FillButton from './FillButton.vue';
 
             <div class="pt-8 flex flex-col sm:flex-row items-center text-base mt-4 md:mt-0" data-aos="fade-up" data-aos-delay="700"
                 data-aos-duration="1000">
-                <FillButton>Contáctanos</FillButton>
-                <EmptyButton class="sm:ml-4 mt-4 sm:mt-0">Cotiza Tu Proyecto</EmptyButton>
+                  <FillButton class="">Contáctanos</FillButton>
+                <EmptyButton class="sm:ml-4 mt-4 sm:mt-0 text-xs md:text-sm">
+                    Cotiza Tu Proyecto
+                </EmptyButton>
             </div>
 
             <!-- TEXTO FINAL-->

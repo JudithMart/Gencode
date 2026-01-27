@@ -2,13 +2,14 @@
   <section class="bg-fondo-gray w-full py-12 sm:py-16 lg:py-20 -mt-px">
 
     <div class="flex justify-center items-center px-4">
-      <p ref="animatedTextRef" class="font-bold bg-gradient-to-b text-center from-text-fromGray to-text-toGray bg-clip-text text-transparent
+      <p ref="animatedTextRef" class="font-semibold bg-gradient-to-b text-center from-text-fromGray to-text-toGray bg-clip-text text-transparent
         text-3xl sm:text-4xl md:text-6xl lg:text-7xl max-w-4xl">
         {{ animatedText }}
       </p>
     </div>
 
-    <div data-aos="fade-up" data-aos-delay="900" data-aos-duration="800" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 sm:mt-14 ">
+    <div data-aos="fade-up" data-aos-delay="900" data-aos-duration="800" 
+    class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 sm:mt-14 ">
       <div class="flex flex-wrap justify-center gap-6 sm:gap-10 lg:gap-14">
         <CardTrustedBy v-for="empresa in empresas" :key="empresa.title" :image="empresa.image" :title="empresa.title"
           :description="empresa.description" :link="empresa.link" />

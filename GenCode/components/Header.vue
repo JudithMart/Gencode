@@ -1,6 +1,6 @@
 <template>
   <header 
-    class="fixed top-0 left-0 w-full z-50 bg-black/ backdrop-blur-sm border-b border-white/5 transition-all duration-300"
+    class="fixed top-0 left-0 w-full z-50 bg-black/ backdrop-blur-sm border-b border-transparent transition-all duration-300"
   >
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-14 md:h-16">
@@ -15,12 +15,12 @@
         </NuxtLink>
 
         <!-- Desktop Nav -->
-        <nav class="hidden md:flex items-center gap-10" aria-label="Navegación principal">
+        <nav class="hidden md:flex items-center gap-10 " aria-label="Navegación principal">
           <NuxtLink 
             v-for="link in navLinks" 
             :key="link.label"
             :to="link.to" 
-            class="group relative text-sm font-medium text-white/60 transition-all duration-300 hover:text-white"
+            class="group relative text-sm font-medium text-white/60 transition-all duration-300 hover:text-white "
           >
             <span class="relative z-10 transition-all duration-300 group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.4)]">
               {{ link.label }}
@@ -84,7 +84,7 @@
       <nav 
         v-if="isOpen" 
         id="mobile-menu"
-        class="md:hidden absolute top-full left-0 w-full bg-black/60 backdrop-blur-md border-b border-white/5"
+        class="md:hidden absolute top-full left-0 w-full bg-black/85 backdrop-blur-md border-b border-white/5"
         aria-label="Menú móvil"
       >
         <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col gap-1">

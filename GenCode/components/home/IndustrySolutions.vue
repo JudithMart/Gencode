@@ -128,13 +128,12 @@ function prevSlide() {
   }
 }
 
-const totalDots = computed(() => Math.ceil(cards.length / cardsPerView.value))
-const currentDot = computed(() => Math.floor(carouselIndex.value / cardsPerView.value))
+
 </script>
 
 <template>
   <section class="bg-fondo-gray w-full py-12 sm:py-16 lg:py-20">
-
+    <!-- Texto -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <p ref="animatedTextRef" class="font-semibold bg-gradient-to-b from-text-fromGray to-text-toGray bg-clip-text 
         text-transparent text-4xl sm:text-4xl md:text-7xl lg:text-7xl 2xl:text-7xl max-w-5xl leading-tight">
@@ -163,7 +162,7 @@ const currentDot = computed(() => Math.floor(carouselIndex.value / cardsPerView.
         </svg>
       </button>
 
-
+      <!-- Tarjetas -->
       <div data-aos="fade-up" data-aos-delay="1000" data-aos-duration="800" class="overflow-x-auto sm:overflow-hidden scroll-smooth scrollbar-hide
          touch-pan-x">
         <div class="flex sm:grid gap-4 sm:gap-6 py-4 transition-all duration-500" :class="{
@@ -190,7 +189,7 @@ const currentDot = computed(() => Math.floor(carouselIndex.value / cardsPerView.
 
 
     </div>
-
+<!-- Texto final -->
 
     <div data-aos="fade-up" data-aos-delay="1000" data-aos-duration="800"
       class="flex justify-center items-center mt-16 sm:mt-20 px-4">
