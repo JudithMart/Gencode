@@ -5,7 +5,7 @@ import FillButton from './FillButton.vue';
 </script>
 
 <template>
-    <div class="relative min-h-screen w-full pt-24 md:pt-36 xl:pt-44 ">
+    <section class=" hero-section relative min-h-screen w-full pt-24 md:pt-36 xl:pt-44 ">
 
 
         <!-- Fondo DESKTOP -->
@@ -93,5 +93,5 @@ import FillButton from './FillButton.vue';
                 entusiasma <br /> contar con un aliado así para nuestros proyectos futuros
             </p>
         </div>
-    </div>
+    </section>
 </template>

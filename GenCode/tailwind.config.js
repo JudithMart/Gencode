@@ -16,7 +16,7 @@ module.exports = {
       colors:{
         text:{
           fromGray: '#F8FAFC',
-          toGray : '#6B7280',
+          toGray : '#9CA3AF',
         },
         fondo:{
           gray:'#161616',

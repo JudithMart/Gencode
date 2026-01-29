@@ -5,7 +5,7 @@ import FillButton from './FillButton.vue';
 </script>
 
 <template>
-    <section class="relative w-full overflow-hidden
+    <section class=" empSystem-section relative w-full overflow-hidden
             min-h-fit lg:min-h-[95vh]
             flex flex-col pt-10 -mt-px">
 

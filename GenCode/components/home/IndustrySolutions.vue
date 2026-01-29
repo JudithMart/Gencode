@@ -2,10 +2,8 @@
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import Card from './Card.vue'
 
-const fullText = 'Conoce los sectores en los que hemos operado'
-const animatedText = ref('')
-const animatedStarted = ref(false)
-const animatedTextRef = ref(null)
+
+
 
 const isMobile = ref(false)
 
@@ -31,27 +29,8 @@ function updateCardsPerView() {
     }
   }
 }
-
-
-function typeWriter(text, i = 0) {
-  if (i <= text.length) {
-    animatedText.value = text.slice(0, i)
-    setTimeout(() => typeWriter(text, i + 1), 50)
-  }
-}
-
-function handleIntersection(entries) {
-  if (entries[0].isIntersecting && !animatedStarted.value) {
-    animatedStarted.value = true
-    typeWriter(fullText)
-  }
-}
-
 onMounted(() => {
-  if (animatedTextRef.value) {
-    const observer = new window.IntersectionObserver(handleIntersection, { threshold: 0.5 })
-    observer.observe(animatedTextRef.value)
-  }
+
   updateCardsPerView()
   window.addEventListener('resize', updateCardsPerView)
 })
@@ -102,9 +81,6 @@ const cards = [
 const carouselIndex = ref(0)
 const cardsPerView = ref(4)
 
-
-
-
 const visibleCards = computed(() => {
   if (isMobile.value) {
     return cards
@@ -132,12 +108,12 @@ function prevSlide() {
 </script>
 
 <template>
-  <section class="bg-fondo-gray w-full py-12 sm:py-16 lg:py-20">
+  <section class="industrySolutions-section bg-fondo-gray w-full py-12 sm:py-16 lg:py-20">
     <!-- Texto -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <p ref="animatedTextRef" class="font-semibold bg-gradient-to-b from-text-fromGray to-text-toGray bg-clip-text 
+      <p ref="animatedTextRef" class="font-normal bg-gradient-to-b from-text-fromGray to-text-toGray bg-clip-text 
         text-transparent text-4xl sm:text-4xl md:text-7xl lg:text-7xl 2xl:text-7xl max-w-5xl leading-tight">
-        {{ animatedText }}
+        Conoce los sectores en los que hemos operado
       </p>
 
       <p data-aos="fade-up" data-aos-delay="900" data-aos-duration="800" class="text-[#C7C8CA] mt-4 sm:mt-6 
@@ -189,7 +165,7 @@ function prevSlide() {
 
 
     </div>
-<!-- Texto final -->
+    <!-- Texto final -->
 
     <div data-aos="fade-up" data-aos-delay="1000" data-aos-duration="800"
       class="flex justify-center items-center mt-16 sm:mt-20 px-4">

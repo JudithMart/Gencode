@@ -45,9 +45,9 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, watch, toRefs } from 'vue'
 
-defineProps({
+const props = defineProps({
     image: {
         type: String,
         required: true
@@ -60,13 +60,21 @@ defineProps({
         type: String,
         required: true
     },
-
+    expanded: {
+        type: Boolean,
+        default: false
+    },
 })
 
-const isExpanded = ref(false)
+const { expanded } = toRefs(props)
+const isExpanded = ref(expanded.value)
+
+
+watch(expanded, (val) => {
+    isExpanded.value = val
+})
 
 const toggleExpand = () => {
-
     if (window.innerWidth < 640) {
         isExpanded.value = !isExpanded.value
     }
